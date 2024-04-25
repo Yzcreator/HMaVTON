@@ -12,12 +12,12 @@ This is the implementation of our paper at ICMR 2024:
 - [ ] Try-on Condition Generator
 - [ ] Denoising Generator
 - [ ] Datasets
+- [ ] Release checkpoint
 
 ## Environments
-'''
-
+```
 conda env create -f environment.yaml
 conda activate control
+```
 
-'''
 
