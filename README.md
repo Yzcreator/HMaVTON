@@ -6,4 +6,17 @@ This is the implementation of our paper at ICMR 2024:
 
 ![Model for this project](figures/model.png)
 
-##TODO List
+## TODO List
+- [ ] Shape Constraint Network
+- [ ] Matching Clothes Diffusion Network
+- [ ] Try-on Condition Generator
+- [ ] Denoising Generator
+- [ ] Datasets
+
+## Environments
+'''
+conda env create -f environment.yaml
+conda activate control
+
+'''
+
