@@ -7,6 +7,7 @@ This is the implementation of our paper at ICMR 2024:
 ![Model for this project](figures/model.png)
 
 ## TODO List
+- [x] Environment
 - [ ] Shape Constraint Network
 - [ ] Matching Clothes Diffusion Network
 - [ ] Try-on Condition Generator
@@ -14,10 +15,18 @@ This is the implementation of our paper at ICMR 2024:
 - [ ] Datasets
 - [ ] Release checkpoint
 
-## Environments
+## Installation
+Clone this repository:
+```
+git clone https://github.com/Yzcreator/HMaVTON.git
+cd ./HMaVTON/
+```
+Install PyTorch and other dependencies:
 ```
 conda env create -f environment.yaml
 conda activate control
 ```
+
+
 
 
