@@ -35,9 +35,29 @@ You can download the POG dataset txt from https://github.com/wenyuer/POG or down
 
 To mitigate the impact of both common and uncommon clothing combinations, we only download outfit sets corresponding to individual clothing items that appear between 5 and 100 times.You can `run Dataset/main.py` to filter and download images via URL to a folder.
 
+You can download the VITON-HD dataset from https://github.com/shadow2496/VITON-HD
+
+## Shape Constraint Network
+We implement Shape Constraint Network on the basis of the pix2pix, which takes the human image having partial mask as input, and outputs the mask image of recommended clothes
+
+Handle images in POG and VITON dataset into 512*512 images, and get the training and test training data pairs through 
+```
+python datasets/combine_A_and_B.py --flod_A /path/to/data/A --flod_B /path/to/data/B --flod_AB /path/to/data
+```
 
 
-The checkpoint is available at https://drive.google.com/file/d/1gMPs3unpJT0z8HX2xTPnUY_sGDpKLt9x/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
+## Checkpoint
+The pre-trained model is available at https://drive.google.com/file/d/1gMPs3unpJT0z8HX2xTPnUY_sGDpKLt9x/view?usp=sharing
 
 
 
