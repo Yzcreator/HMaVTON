@@ -46,15 +46,13 @@ python datasets/combine_A_and_B.py --flod_A /path/to/data/A --flod_B /path/to/da
 ```
 
 ## Matching Clothes Diffusion Network
-We 
+The module is based on a diffusion model guided by conditions, which accepts partially occluded human images and generated shape constraint mask images as conditional constraints, and generates matching outfits. 
 
-## 
+We provide a pre-trained model for testing, which learns matching knowledge on the POG dataset and introduces the VITON dataset. You can download the pre-trained model and put it in `checkpoint/`.
 
+## Try-on Condition Generator and Denoising Generator
 
-
-
-
-
+The module warps the generated garment to fit the distorted garment of the character, adds random Gaussian noise after fitting the garment to the partly-masked character image, and obtains the try-on image by denoising through the diffusion model.
 
 
 
