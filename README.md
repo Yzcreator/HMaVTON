@@ -37,7 +37,7 @@ To mitigate the impact of both common and uncommon clothing combinations, we onl
 
 
 
-
+The checkpoint is available at https://drive.google.com/file/d/1gMPs3unpJT0z8HX2xTPnUY_sGDpKLt9x/view?usp=sharing
 
 
 
