@@ -8,12 +8,12 @@ This is the implementation of our paper at ICMR 2024:
 
 ## TODO List
 - [x] Environment
-- [ ] Datasets
-- [ ] Shape Constraint Network
-- [ ] Matching Clothes Diffusion Network
-- [ ] Try-on Condition Generator
-- [ ] Denoising Generator
-- [ ] Release checkpoint
+- [x] Datasets
+- [x] Shape Constraint Network
+- [x] Matching Clothes Diffusion Network
+- [x] Try-on Condition Generator
+- [x] Denoising Generator
+- [x] Release checkpoint
 
 ## Installation
 Clone this repository:
