@@ -56,7 +56,6 @@ The module warps the generated garment to fit the distorted garment of the chara
 
 
 
-
 ## Checkpoint
 The pre-trained model is available at https://drive.google.com/file/d/1gMPs3unpJT0z8HX2xTPnUY_sGDpKLt9x/view?usp=sharing
 
